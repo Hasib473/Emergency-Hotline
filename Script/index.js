@@ -46,9 +46,7 @@ for (const makecall of call) {
             cartContainer.append(newElemennt);
 
             getElement('coin-count').innerText= currentCoin - 20;
-            
-
-            
+              
         }
         else{
             alert('❌Your balance is too low. You must have 20  coins to make a call')
@@ -56,3 +54,8 @@ for (const makecall of call) {
         }
     })
 }
+// clear button
+getElement('clear-btn').addEventListener('click',function(){
+    getElement('history-look').innerHTML=""
+})
+
