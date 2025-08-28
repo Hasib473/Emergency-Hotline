@@ -1,5 +1,5 @@
 
-###  Answering  the following questions :
+###  Answering  the questions :
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
  Ans : getElementById is one of the important js DoM method . It Means select one element by its Id . Its return single Dom element . Its only work for Id selector .
