@@ -33,7 +33,7 @@
             </div>
 
             <div class="right flex gap-4 p-4">
-                <button class="btn bg-green-100 rounded-3xl p-5"><span>0</span><img class="w-6" src="./assets/heart.png"
+                <button class="btn bg-green-100 rounded-3xl p-5"><span id="heart-count">0</span><img class="w-6" src="./assets/heart.png"
                         alt="" srcset=""></button>
                 <button class="btn bg-green-100 rounded-3xl px-5"><span>100</span><img class="w-6"
                         src="./assets/coin.png" alt="" srcset=""></button>
@@ -61,7 +61,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-[10px] ">
                         <img class="w-15 bg-red-100 p-3 rounded-2xl" src="./assets/emergency.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">National Emergency Number</h1>
@@ -83,7 +83,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-[10px] ">
                         <img class="w-15 bg-blue-100 p-3 rounded-2xl" src="./assets/police.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Police Helpline Number</h1>
@@ -105,7 +105,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-3">
                         <img class="w-15 bg-red-100 p-3 rounded-2xl" src="./assets/fire-service.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Fire Service<br> Number</h1>
@@ -126,7 +126,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-3 ">
                         <img class="w-15 bg-red-100 p-3 rounded-2xl" src="./assets/ambulance.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Ambulance <br> Service</h1>
@@ -146,7 +146,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-3 ">
                         <img class=" w-15 bg-red-100 p-3 rounded-2xl" src="./assets/emergency.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Women & Child Helpline</h1>
@@ -166,7 +166,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-3 ">
                         <img class="w-15 bg-red-100 p-3 rounded-2xl" src="./assets/emergency.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Anti-Corruption Helpline</h1>
@@ -186,7 +186,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-3 ">
                         <img class="w-15 bg-red-100 p-3 rounded-2xl" src="./assets/emergency.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Electricity <br> Helpline</h1>
@@ -206,7 +206,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-3 ">
                         <img class="w-15 bg-red-100 p-3 rounded-2xl" src="./assets/brac.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Brac <br> Helpline</h1>
@@ -226,7 +226,7 @@
                 <div class="card bg-base-100  shadow-sm p-5">
                     <div class="flex justify-between items-center mb-3 ">
                         <img class="w-15 bg-red-100 p-3 rounded-2xl" src="./assets/Bangladesh-Railway.png" alt="">
-                        <p>🤍</p>
+                        <p class="heart cursor-pointer">🤍</p>
                     </div>
                     <div>
                         <h1 class="text-2xl font-bold">Bangladesh Railway Helpline </h1>
@@ -272,6 +272,11 @@
 
         </div>
     </main>
+
+
+
+    <!-- link with js file -->
+     <script src="./Script/index.js"></script>
 </body>
 
 </html>
